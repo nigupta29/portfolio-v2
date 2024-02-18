@@ -19,8 +19,10 @@ export default function RootLayout({
   return (
     <html lang='en'>
       <body className={inter.className}>
-        <Navbar />
-        <main>{children}</main>
+        <div className='space-y-20 p-4 mx-auto w-full max-w-3xl'>
+          <Navbar />
+          <main>{children}</main>
+        </div>
       </body>
     </html>
   )
