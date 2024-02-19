@@ -59,7 +59,7 @@
     @apply bg-background text-foreground;
   }
   h1 {
-    @apply text-4xl font-extrabold lg:text-5xl tracking-tighter
+    @apply text-4xl font-bold lg:text-5xl tracking-tighter
   }
   h2 {
     @apply text-3xl font-semibold lg:text-4xl tracking-tighter
@@ -72,5 +72,8 @@
   }
   h5 {
     @apply text-lg font-semibold lg:text-xl tracking-tighter
+  }
+  h6 {
+    @apply text-base font-semibold lg:text-lg tracking-tighter
   }
 }
