@@ -17,11 +17,11 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang='en'>
+    <html lang="en">
       <body className={inter.className}>
-        <div className='space-y-20 p-4 mx-auto w-full max-w-3xl'>
+        <div className="mx-auto w-full max-w-3xl space-y-20 p-4">
           <Navbar />
-          <main>{children}</main>
+          <main className="space-y-12">{children}</main>
         </div>
       </body>
     </html>

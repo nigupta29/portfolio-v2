@@ -4,3 +4,10 @@ export type NavLinkItem = {
 
   variant?: "default" | "secondary"
 }
+
+export type SkillItem = {
+  imageRef: string
+  label: string
+}
+
+
