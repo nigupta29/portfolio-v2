@@ -1,4 +1,4 @@
-import { GithubIcon, LinkedinIcon, TwitterIcon, XIcon } from "lucide-react"
+import { GithubIcon, LinkedinIcon, TwitterIcon } from "lucide-react"
 import { FooterItem, NavLinkItem, SkillItem } from "./types"
 
 export const navlinkItems: NavLinkItem[] = [
@@ -22,24 +22,12 @@ export const skillsData: SkillItem[] = [
     label: "python"
   },
   {
-    imageRef: "html",
-    label: "html"
-  },
-  {
-    imageRef: "css",
-    label: "css"
-  },
-  {
     imageRef: "javascript",
     label: "javascript"
   },
   {
     imageRef: "typescript",
     label: "typescript"
-  },
-  {
-    imageRef: "bootstrap",
-    label: "bootstrap"
   },
   {
     imageRef: "tailwind",
@@ -60,10 +48,6 @@ export const skillsData: SkillItem[] = [
   {
     imageRef: "firebase",
     label: "firebase"
-  },
-  {
-    imageRef: "supabase",
-    label: "supabase"
   },
   {
     imageRef: "nodejs",
