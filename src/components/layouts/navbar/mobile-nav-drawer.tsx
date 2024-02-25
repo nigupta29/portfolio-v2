@@ -8,11 +8,11 @@ import {
   DrawerTitle,
   DrawerTrigger
 } from "@/components/ui/drawer"
+import { Separator } from "@/components/ui/separator"
 import { navlinkItems } from "@/lib/data"
 import { GanttChartIcon } from "lucide-react"
-import NavlinkItem from "./navlink-item"
 import FooterItems from "../footer/footer-items"
-import { Separator } from "@/components/ui/separator"
+import NavlinkItem from "./nav-link-item"
 
 export default function MobileNavDrawer() {
   return (

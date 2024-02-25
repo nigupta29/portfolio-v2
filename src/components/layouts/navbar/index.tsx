@@ -2,7 +2,7 @@ import { navlinkItems } from "@/lib/data"
 import { Separator } from "../../ui/separator"
 import Logo from "../logo"
 import MobileNavDrawer from "./mobile-nav-drawer"
-import NavlinkItem from "./navlink-item"
+import NavlinkItem from "./nav-link-item"
 
 export default function Navbar() {
   return (
