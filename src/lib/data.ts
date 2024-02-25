@@ -1,4 +1,5 @@
-import { NavLinkItem, SkillItem } from "./types"
+import { GithubIcon, LinkedinIcon, TwitterIcon, XIcon } from "lucide-react"
+import { FooterItem, NavLinkItem, SkillItem } from "./types"
 
 export const navlinkItems: NavLinkItem[] = [
   {
@@ -81,8 +82,8 @@ export const skillsData: SkillItem[] = [
     label: "mongodb"
   },
   {
-    imageRef: "pos",
-    label: "mysql"
+    imageRef: "postgresql",
+    label: "postgresql"
   },
   {
     imageRef: "figma",
@@ -96,9 +97,23 @@ export const skillsData: SkillItem[] = [
     imageRef: "github",
     label: "github"
   },
-
   {
     imageRef: "postman",
     label: "postman"
+  }
+]
+
+export const footerData: FooterItem[] = [
+  {
+    href: "https://github.com/nigupta29",
+    Icon: GithubIcon
+  },
+  {
+    href: "https://twitter.com/jerry_codes",
+    Icon: TwitterIcon
+  },
+  {
+    href: "https://www.linkedin.com/in/nigupta29/",
+    Icon: LinkedinIcon
   }
 ]
