@@ -1,8 +1,6 @@
+import { inter_font } from "@/lib/font"
 import type { Metadata } from "next"
-import { Inter } from "next/font/google"
 import "./globals.css"
-
-const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
   title: "Nikhil Gupta — Developer, QA & Storyteller",
@@ -17,9 +15,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>
-        <div className="fixed right-[11rem] top-[-6rem] -z-10 h-[30rem] w-[80rem] rounded-full bg-[#fbe2e3] blur-[10rem]"></div>
-        <div className="fixed left-[5rem] top-[12rem] -z-10 h-[30rem] w-[80rem] rounded-full bg-[#dbd7fb] blur-[10rem]"></div>
+      <body className={inter_font.className}>
+        <div className="fixed left-[5rem] top-[12rem] -z-10 h-[30rem] w-[60rem] rounded-full bg-cyan-400 blur-[12rem]"></div>
+        <div className="fixed right-[15rem] top-[18rem] -z-10 h-[30rem] w-[60rem] rounded-full bg-amber-400 blur-[12rem]"></div>
+        <div className="fixed right-[11rem] top-[-6rem] -z-10 h-[30rem] w-[60rem] rounded-full bg-rose-400 blur-[12rem]"></div>
 
         <main>{children}</main>
       </body>
