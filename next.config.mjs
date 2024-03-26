@@ -5,9 +5,9 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: "https",
-        hostname: "skillicons.dev",
+        hostname: "github.com",
         port: "",
-        pathname: "/**"
+        pathname: "/nigupta29.png"
       }
     ]
   }
